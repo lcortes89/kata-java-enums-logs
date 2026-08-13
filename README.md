@@ -118,7 +118,7 @@ Currently reports 0 violations.
 
 > **Note:** JaCoCo is configured but, as with the previous kata, the bundled version isn't compatible with Java 21 bytecode, so the coverage report analyzes 0 classes. The build still passes because the threshold is set to 0%.
 
-![Tests in VSCode](docs/img/testing.png)
+![Tests in VSCode](src/img/test.png)
 
 [← Usage](#usage) • [↑ Index](#index) • [Project structure →](#structure)
 
@@ -128,10 +128,9 @@ Currently reports 0 violations.
 
 ```
 KATA-JAVA-ENUMS-LOGS
-├── docs/
-│   └── img/
-│       └── testing.png
 ├── src/
+│   ├── img/
+│   │   └── test.png
 │   ├── main/java/org/luisa/logs/
 │   │   ├── LogLevel.java
 │   │   └── LogLine.java
